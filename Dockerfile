@@ -10,7 +10,7 @@ ENV TIMEOUT     300
 
 RUN apk update && \
     apk add python3 && \
-    pip3 install --no-cache-dir shadowsocks
+    pip3 install shadowsocks
 
 #ENTRYPOINT ["/usr/bin/ssserver"]
 
